@@ -1,3 +1,5 @@
+/* 336699 , 86BBD8 */
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Roboto&display=swap');
 
 *{
@@ -33,7 +35,7 @@ nav {
     font-family: 'Cinzel';
     font-style: italic;
     letter-spacing: 5px;
-    color: #fff;
+    color: #f3f3f3;
     font-size: 2rem;
 }
 
@@ -93,7 +95,7 @@ nav {
 }
 
 .header-img {
-    background: linear-gradient(rgb(52 52 52 / 80%), rgb(52 52 52 / 80%)) , url(../img/header_img.jpg);
+    background: #343434;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -109,7 +111,7 @@ button#openNav {
     background: transparent;
     border: none;
     outline: none;
-    color: #fff;
+    color: #f3f3f3;
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -126,7 +128,7 @@ button#openNav::before{
     content: '';
     width: 0%;
     height: 5%;
-    background: #fff;
+    background: #f3f3f3;
     z-index: -1;
 }
 
@@ -147,7 +149,7 @@ button#openNav:hover::before{
 }
 
 .header-img h2 {
-    color: #fff;
+    color: #f3f3f3;
     font-size: 3rem;
     font-family: 'Cinzel';
     text-transform: uppercase;
@@ -156,7 +158,7 @@ button#openNav:hover::before{
 }
 
 .header-img p {
-    color: #fff;
+    color: #f3f3f3;
     text-transform: capitalize;
     letter-spacing: 2px;
     text-align: justify;
@@ -176,7 +178,7 @@ div#header_img_btns a {
 }
 
 #header_os_btn {
-    background: #fff;
+    background: #f3f3f3;
     color: #343433;
     padding: 10px 0px;
     position: relative;
@@ -191,7 +193,7 @@ div#header_img_btns a {
 
 #header_au_btn {
     background: transparent;
-    color: #ffffff;
+    color: #f3f3f3;
     padding: 10px 0px;
     position: relative;
     display: block;
@@ -201,11 +203,11 @@ div#header_img_btns a {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 0.9rem;
-    border: 1px solid #fff;
+    border: 1px solid #f3f3f3;
 }
 
 #header_au_btn:hover {
-    background: #fff;
+    background: #f3f3f3;
     color: #343433;
     transition: .7s;
 }
@@ -213,6 +215,7 @@ div#header_img_btns a {
 .header-content{
     display: flex;
     align-items: center;
+    background: #f3f3f3;
 }
 
 div#hc_gallery {
@@ -319,5 +322,8 @@ div#hcg_item2 h3, div#hcg_item4 h3 {
     }
     div#header_img_btns {
         width: 50%;
+    }
+    .header-img p{
+        padding-right: 10%;
     }
 }
