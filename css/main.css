@@ -299,7 +299,7 @@ div#hcg_item2 h3, div#hcg_item4 h3 {
 
 @media screen and (max-width:565px){
     div#header_img_btns {
-        width: 100% !important;
+        width: 70% !important;
     }
     div#hc_gallery{
         padding: 0 4%;
